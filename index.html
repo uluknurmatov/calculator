@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="calculate">
+        <input type="text" name="" id="inp">
+        <div class="block-btns">
+            <button onclick="handleButtonClick('AC')" class="btn-oper">AC</button> 
+            <button onclick="handleButtonClick('%')" class="btn-oper">%</button>
+            <button onclick="handleButtonClick('/')" class="btn-oper">/</button>
+            <button onclick="handleButtonClick('*')" class="btn-oper">*</button>
+            <button onclick="handleButtonClick(7)" class="btn-number">7</button>
+            <button onclick="handleButtonClick(8)" class="btn-number">8</button>
+            <button onclick="handleButtonClick(9)" class="btn-number">9</button>
+            <button onclick="handleButtonClick('+')" class="btn-oper">+</button>
+            <button onclick="handleButtonClick(4)" class="btn-number">4</button>
+            <button onclick="handleButtonClick(5)" class="btn-number">5</button>
+            <button onclick="handleButtonClick(6)" class="btn-number">6</button>
+            <button onclick="handleButtonClick('-')" class="btn-oper">-</button>
+            <button onclick="handleButtonClick(1)" class="btn-number">1</button>
+            <button onclick="handleButtonClick(2)" class="btn-number">2</button>
+            <button onclick="handleButtonClick(3)" class="btn-number">3</button>
+            <button onclick="handleButtonClick('(')" class="btn-oper">(</button>
+            <button onclick="handleButtonClick(0)" class="btn-number">0</button>
+            <button onclick="handleButtonClick()" class="btn-number">,</button>
+            <button onclick="handleCalculate()" class="btn-number">=</button>
+            <button onclick="handleButtonClick(')')" class="btn-oper">)</button>
+            
+        </div>
+
+
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
